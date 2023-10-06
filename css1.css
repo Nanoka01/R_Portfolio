@@ -1,0 +1,112 @@
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    background-color: rgba(102, 239, 84, 0.471);
+}
+
+img.logo{
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px rgba(red, green, blue, alpha);
+}
+
+h1.name{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+span.slogan{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(0, 105, 253);
+    margin-bottom: 35px  ;
+}
+.social-img ul{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.social-img ul li{
+    display: inline;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+.social-img ul li:hover{
+    background: #9f86abc9;
+}
+li.facebook{
+    background: rgba(18, 120, 238, 0.404);
+}
+li.youtube{
+    background: rgba(255, 0, 0, 0.5);
+}
+li.github{
+    background: rgba(236, 102, 6, 0.5);
+}
+h5{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-transform: uppercase; 
+}
+.work{
+    margin-bottom:20px ;
+    float:left;
+
+    text-align:center;
+}
+.Port{
+    text-align: center;
+    padding: 20px;
+}
+.Port h4{
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: px;
+    margin-bottom: 0px;
+    
+}
+.footer{
+  text-align: center;
+  color: #f3f3f3;
+  padding: 20px;
+  color: rgba(#fbfafa, .5);
+  background-color: rgba(0, 0, 255, 0.855);
+}
+h5{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 60px;
+    padding: 5px;
+}
+.Port ul{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.Port ul li{
+    display: inline;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+.Port ul li:hover{
+    background: #fd0000;
+}
